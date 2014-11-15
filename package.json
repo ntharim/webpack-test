@@ -1,0 +1,15 @@
+{
+  "name": "webpack-test",
+  "dependencies": {
+    "mercury": "git://github.com/raynos/mercury"
+  },
+  "devDependencies": {
+    "es6-loader": "^0.2.0",
+    "esnext-loader": "^1.1.0",
+    "webpack": "^1.4.13",
+    "webpack-dev-server": "^1.6.5"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server -d --progress --colors --port 8090"
+  }
+}
